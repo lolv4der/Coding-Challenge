@@ -1,0 +1,71 @@
+*{
+   margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/* inserisco l'immagine come background del body della pagina */
+body{
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* definisco il lyout del contenuto */
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black ;opacity: 0.7;
+  border-radius: 10px;
+  height: 70%;
+  width: 50%;
+  padding: 60px;
+}
+/* modifiche varie font colori etc... etc... */
+.titolo{
+   font-size: 40px;
+   color: #00dd00;
+   text-align: center;
+}
+.logo {
+  height: 10%;
+  width: 30%;
+  display: block;
+}
+.navbar {
+    width: 100%;
+    background-color: #00dd00;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.checkbox-inline{
+  font-size: 30px;
+}
+
+/* colore del testo per il corpo del contenuto */
+main{
+     color: white;
+}
+
+/* proprietà (condivise ed uniche) delle entità */
+.stato_carica_gino, .stato_carica_fede, .stato_carica_mike{
+  height: 30px;
+  border-radius: 5px;
+  margin: 0;
+}
+.stato_carica_gino{
+  background-color: #f5b453;
+  width: 40%;
+}
+.stato_carica_mike{
+  background-color: #1ec31e;
+  width: 70%;
+}
+.stato_carica_fede{
+  background-color: #be4141;
+  width: 20%;
+}
+
+.item{
+  margin-top: 20px;
+}
